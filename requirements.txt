@@ -1,0 +1,10 @@
+flask_cors
+flask~=2.0.2
+werkzeug~=2.0.3
+nltk~=3.7
+numpy
+fasttext
+datefinder
+pdfplumber
+docx2txt
+easyocr

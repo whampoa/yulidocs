@@ -1,0 +1,70 @@
+/*upload*/
+.highlight{
+	background-color: hsla(0, 0%, 100%, 0.3);
+	border: 2px dashed rgb(125,190,255);
+}
+
+#fileElem{
+	display: none;
+}
+
+/*icon*/
+#icon{
+	transition: .3s;
+    padding: 0;
+}
+
+.loading{
+    width: 2em !important;
+    height: 2em !important;
+    background-image: url(../images/loading.gif);
+    background-repeat: round;
+    display: flex;
+}
+
+.success{
+	background-image: url(../images/success.jfif);
+}
+
+.fail{
+	background-image: url(../images/cross.png);
+}
+
+/*result*/
+#result{
+    background: #5654A2;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    border: 1px dashed;
+    display: none;
+    overflow: hidden;
+    padding-top: 0;
+	margin: auto 2em;
+	width: 100%;
+}
+
+#result:before{
+	height: 10px;
+	width: 10px;
+}
+
+#result>h1{
+	background-color: orange;
+    border-radius: 0 0 5px 5px;
+    color: white;
+    margin-top: 0;
+    font-size: 30px;
+    line-height: 65px;
+    margin-bottom: 50px;
+    padding: 0 20px 0 20px;
+}
+
+table>tr>th,table>tr>td{
+	border: 1px solid #191970;
+	padding: 1px;
+}
+
+table{
+	width: 100%;
+}
